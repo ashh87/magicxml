@@ -51,7 +51,7 @@ THE SOFTWARE.
 
     function loadXML(source) {
         var xhr = (window.ActiveXObject || "ActiveXObject" in window) ?
-                new ActiveXObject("Msxml2.XMLHTTP.3.0") :
+                new ActiveXObject("Msxml2.XMLHTTP.6.0") :
                 new XMLHttpRequest();
 
         xhr.open("GET", source, false);
